@@ -2,6 +2,13 @@ name = "telegram-private-chatbot"
 main = "worker.js"
 compatibility_date = "2024-11-30"
 
+[[kv_namespaces]]
+binding = "TOPIC_MAP"
+id = "ba6d4460ce474e1e96a4cd0076e97450"
+
+[vars]
+SUPERGROUP_ID = "-1003889789499"
+
 [observability]
 enabled = false
 head_sampling_rate = 1
